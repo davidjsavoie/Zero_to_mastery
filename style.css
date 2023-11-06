@@ -1,0 +1,222 @@
+.h1_container 
+{
+	color: whitesmoke;
+	background-color: #313131;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin: 0px;
+	font-family: serif;
+	width: auto;
+	
+}
+
+@media (max-width:450px) {
+  img#green_tree,.main_img_wrapper {
+    display: none;
+  }
+}
+.main_img {
+  display: flex;
+  height: 300px;
+  width: 450px;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+}
+
+}
+
+.main_img_wrapper {
+	display: flex;
+	justify-content: center;
+	background-color: #194444;
+	padding: 50px;
+	border-bottom: 15px solid #313131;
+
+}
+
+.i_am_naomi {
+	padding: 0px;
+	border-bottom: 10px solid #313131;
+	text-align: center;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	color: whitesmoke;
+	text-align: center;
+
+}
+
+.welcome_text 
+{
+	margin: 5px;
+	color: whitesmoke;
+	text-align: center;
+
+}
+
+h2, p, label {
+	display: flex;
+	justify-content: center;
+	color: whitesmoke;
+	background-color: #194444;
+	margin: 5px;
+
+
+}
+
+.contact_me {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.contact_me:hover {
+	color: lightgreen;
+}
+
+.tree_div {
+
+	display: flex;
+	background-color: #313131;
+	border-bottom: 10px solid #313131;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 10px;
+
+}
+
+.trees {
+  float: left;
+  display: flex;
+  height: 300px;
+  width: 450px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10 px;
+  background-color: #313131;
+
+}
+
+.tree_text {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	background-color: #313131;
+
+
+}
+
+.text_2 {
+	text-indent: 0px;
+	margin: 0px;
+}
+
+.deserve_better_div {
+	border-bottom: 10px solid #313131;
+	padding-bottom: 10px;
+	justify-content: center;
+}
+.deserve_better_oak {
+	float: right;
+	display: flex;
+ 	height: 300px;
+    width: 450px;
+    justify-content: flex-end;
+}
+
+.deserve_better {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 10px;
+}
+
+.about_me_div {
+		border-bottom: 10px solid #313131;
+}
+
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact {
+	border-bottom: 10px solid #313131;
+	padding: 10px;
+
+}
+.resources {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	border-bottom: 10px solid #313131;
+	padding: 10px;
+
+}
+
+
+.google_maps {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.office_hours_div {
+	background-color: #313131;
+	border-bottom: 10px solid #194444;
+
+}
+
+.office_hours {
+	color: whitesmoke;
+	background-color: #313131;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+	font-family: serif;
+}
+
+.footer {
+	color: whitesmoke;
+	background-color: #313131;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+		margin: 0px;
+	font-family: serif;
+}
+
+email 
+{
+	display: flex;
+	justify-content: center;
+}
